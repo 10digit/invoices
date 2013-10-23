@@ -1,0 +1,4 @@
+div(ng-repeat="invoice in invoices")
+    p
+        strong Invoice {{invoice.id}}, issued {{invoice.issued.split(' ')[0]}}
+    include invoice

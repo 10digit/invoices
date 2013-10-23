@@ -1,0 +1,1 @@
+<div ng-controller="InvoiceLineCtrl"><table class="table table-striped"><thead><tr><th>Description</th><th>Amount</th></tr></thead><tbody><tr ng-repeat="line in invoice.items"><td>{{line.description}}</td><td>${{(line.amount / 100).toFixed(2)}}</td></tr><tr class="info"><td><strong>Total</strong></td><td>${{(invoice.amount / 100).toFixed(2)}}</td></tr></tbody></table></div>
