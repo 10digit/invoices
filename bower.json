@@ -1,6 +1,6 @@
 {
     "name": "invoices",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./invoices.js",
     "ignore": [
         "**/.*",
@@ -9,8 +9,8 @@
     ],
     "dependencies": {
         "angular": "*",
-        "10digit-utils": "0.0.0",
-        "10digit-services": "0.0.0",
+        "10digit-utils": "*",
+        "10digit-services": "*",
         "angular-grid": "*"
     }
 }
