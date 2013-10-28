@@ -107,8 +107,6 @@ angular.module('10digit.invoices', ['10digit.utils', '10digit.services', 'ngGrid
 	Invoices.loadPrevious();
     $scope.invoices = Invoices.invoices;
     $scope.$watch('invoices', function(val){
-        console.log(val);
-        console.log('invoices!');
     });
 }])
 
